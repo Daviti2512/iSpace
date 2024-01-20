@@ -1,0 +1,208 @@
+/*---------------------------------------------Authorization.scss---------------------------------------------*/
+/*--------------header----------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+header{
+  width: 100%;
+  height: 45px;
+  background: white;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+
+  nav ul{
+      height: 100%;
+      width: 100%;
+      max-width: 1400px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+
+      a{
+          color: gray;
+      }
+      
+  
+      li{
+          cursor: pointer;
+          list-style: none;
+          font-family: inherit;
+          text-decoration: none;
+          color: gray;
+
+          
+
+          &:hover{
+              color: #3B82F7;
+          }
+          
+
+          img{
+              width: 200px;
+              background-color: #211F20;
+              color: white;
+
+          }
+      }
+  }
+
+  
+  
+  .nav-1{
+      background-color: #211F20;
+      height: 80px;
+      
+  }
+
+  .call{
+      color: #3B82F7;
+  }
+
+  .GE{
+
+      a{
+          color: black;
+      }
+  }
+
+  .user{
+      color: #3B82F7;;
+      margin-left: 80px;
+      font-size: 15px;
+  }
+
+  .icones{
+      margin-left: 50px;
+      font-size: 20px;
+
+      a{
+          color: white;
+      }
+  }
+
+  a{
+      text-decoration: none;
+  }
+}
+  
+  
+
+/*--------------the middle---------------*/
+  .div-1{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(2726703.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-top: 70px;
+  }
+  
+  .form-box{
+    width: 380px;
+    height: 550px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+
+  button{
+    width: 110px;
+  }
+  
+  .button-box{
+    width: 360px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+  }
+  
+  .toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+  }
+  
+  #btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: gray;
+    border-radius: 30px;
+    transition: .5s;
+  }
+  
+  .input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+  }
+  
+  .input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+  }
+  
+  .submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: gray;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+  }
+  
+  .chech-box{
+    margin: 30px 10px 30px 0;
+  }
+  
+  span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+  
+  }
+  
+  #login{
+    left: 50px;
+  }
+  
+  #register{
+    left: 450px;
+  }
+
+  #Comunication{
+    left: 400px;
+    top: 120px;
+  }

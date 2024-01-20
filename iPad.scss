@@ -1,0 +1,615 @@
+/*----------------------iPad.scss--------------------*/
+/*--------------header----------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+  
+  header{
+    width: 100%;
+    height: 45px;
+    background: white;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    
+
+    
+  
+    nav ul{
+        height: 100%;
+        width: 100%;
+        max-width: 1400px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        a{
+            color: gray;
+
+            &:hover{
+                color: #3B82F7;
+            }
+        }
+        
+    
+        li{
+            cursor: pointer;
+            list-style: none;
+            font-family: inherit;
+            text-decoration: none;
+            color: gray;
+            
+  
+            img{
+                width: 200px;
+                background-color: gray;
+                color: white;
+  
+            }
+        }
+    }
+  
+    
+    
+    .nav-1{
+        background-color: #211F20;
+        height: 80px;
+        
+    }
+  
+    .call{
+        color: #3B82F7;
+    }
+
+    .GE{
+
+        a{
+            color: black;
+        }
+    }
+  
+    .user{
+        color: #3B82F7;;
+        margin-left: 80px;
+        font-size: 15px;
+    }
+  
+    .icones{
+        margin-left: 50px;
+        font-size: 20px;
+
+        a{
+            color: white;
+        }
+    }
+
+    a{
+        text-decoration: none;
+    }
+  }
+
+
+
+/*--------------the middle---------------*/
+.title-2{
+    width: 100%;
+    height: 400px;
+    margin-top: 72px;
+    background-color: #F6F6F6;
+    z-index: -1;
+    border: 1px solid silver;
+    border-bottom: 0px;
+    
+
+    h2{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        color: #211F20;
+
+    }
+
+    p{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        color: #211F20;
+    
+    }
+}
+
+.iPad{
+    width: 400px;
+    margin-left: 250px;
+    display: flex;
+    background-color: #F6F6F6;
+    margin-top: -80px;
+    border: none;
+    height: 270px;
+    border: solid 0.5px silver;
+
+    &:hover{
+        border: solid 1px #3B82F7;
+        cursor: pointer;
+    }
+    
+    img{
+        width: 200px;
+        margin-left: -120px;
+        margin-top: 20px;
+        height: 200px;
+
+    }
+
+    p{
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 180px;
+        margin-top: 235px;
+        font-size: 20px;
+
+        &:hover{
+            color: #3B82F7;
+        }
+    }
+}
+
+.iPad-mini-6{
+    width: 380px;
+    margin-left: 650px;
+    display: flex;
+    background-color: #F6F6F6;
+    margin-top: -270px;
+    border: none;
+    height: 270px;
+    border: solid 0.5px silver;
+
+    &:hover{
+        border: solid 1px #3B82F7;
+        cursor: pointer;
+    }
+    
+    img{
+        width: 200px;
+        margin-left: -160px;
+        margin-top: 20px;
+        height: 200px;
+
+    }
+
+    p{
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 150px;
+        margin-top: 235px;
+        font-size: 20px;
+
+        &:hover{
+            color: #3B82F7;
+        }
+    }
+}
+
+.iPad-Air-5{
+    width: 380px;
+    margin-left: 1030px;
+    display: flex;
+    background-color: #F6F6F6;
+    margin-top: -270px;
+    border: none;
+    height: 270px;
+    border: solid 0.5px silver;
+
+    &:hover{
+        border: solid 1px #3B82F7;
+        cursor: pointer;
+    }
+    
+    img{
+        width: 200px;
+        margin-left: -160px;
+        margin-top: 20px;
+        height: 200px;
+
+    }
+
+    p{
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 130px;
+        margin-top: 235px;
+        font-size: 20px;
+
+        &:hover{
+            color: #3B82F7;
+        }
+    }
+}
+
+.iPad-Pro-12{
+    width: 400px;
+    margin-left: 250px;
+    display: flex;
+    background-color: #F6F6F6;
+    border: none;
+    height: 270px;
+    border: solid 0.5px silver;
+
+    &:hover{
+        border: solid 1px #3B82F7;
+        cursor: pointer;
+    }
+    
+    img{
+        width: 200px;
+        margin-left: -160px;
+        margin-top: 20px;
+        height: 200px;
+
+    }
+
+    p{
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 130px;
+        margin-top: 235px;
+        font-size: 20px;
+
+        &:hover{
+            color: #3B82F7;
+        }
+    }
+}
+
+.iPad-Pro-11{
+    width: 380px;
+    margin-left: 650px;
+    display: flex;
+    background-color: #F6F6F6;
+    margin-top: -270px;
+    border: none;
+    height: 270px;
+    border: solid 0.5px silver;
+
+    &:hover{
+        border: solid 1px #3B82F7;
+        cursor: pointer;
+    }
+    
+    img{
+        width: 200px;
+        margin-left: -160px;
+        margin-top: 20px;
+        height: 200px;
+
+    }
+
+    p{
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 140px;
+        margin-top: 235px;
+        font-size: 20px;
+
+        &:hover{
+            color: #3B82F7;
+        }
+    }
+}
+
+.Services-for-iPad{
+    width: 380px;
+    margin-left: 1030px;
+    display: flex;
+    background-color: #F6F6F6;
+    margin-top: -270px;
+    border: none;
+    height: 270px;
+    border: solid 0.5px silver;
+
+    &:hover{
+        border: solid 1px #3B82F7;
+        cursor: pointer;
+    }
+    
+    img{
+        width: 200px;
+        margin-left: -170px;
+        margin-top: 20px;
+        height: 200px;
+
+    }
+
+    p{
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 110px;
+        margin-top: 235px;
+        font-size: 20px;
+
+        &:hover{
+            color: #3B82F7;
+        }
+    }
+}
+
+
+
+
+.premium-2{
+    height: 500px;
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+    margin-top: 300px;
+
+    h2{
+        margin-top: 150px;
+        margin-left: 370px;
+        font-size: 35px;
+    }
+
+    p{
+        margin-top: 20px;
+        margin-left: 370px;
+        font-size: 20px;
+        color: #211F20;
+    }
+
+    a{
+        margin-left: 370px;
+        color: #3B82F7;
+        font-size: 15px;
+        text-decoration: none;
+
+
+
+        &:hover{
+            color: #211F20;
+        }
+    }
+
+    img{
+        display: flex;
+        margin-top: -150px;
+        margin-left: 170px;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+
+
+
+
+
+
+
+  /*------------footer------------*/
+footer{
+    width: 100%;
+    height: 1000px;
+    background-color: #211F20;
+
+    a{
+        text-decoration: none;
+    }
+
+    .div-2{
+        width: 80%;
+        height: 100px;
+        background-color: #211F20;
+        border-bottom: 1px solid gray;
+        color: white;
+        font-size: 30px;
+        align-items: center;
+        display: flex;
+        margin-left: 150px;
+
+        img{
+            width: 200px;
+            margin-left: -15px;
+        }
+        
+        .div-17{
+            color: white;
+            margin-top: 30px;
+            margin-left: 947px;
+            font-size: 10px;
+            
+        }
+
+        a{
+            color: gray;
+            font-size: 30px;
+        }
+
+    }
+      
+
+    .div-3 {
+        color: white;
+        margin-top: 30px;
+        margin-left: 150px;
+        font-size: 15px;
+        
+        a{
+            display: flex;
+            color: gray;
+            margin-top: 10px;
+            font-size: 10px;
+        }
+    }
+
+   .div-4{
+    color: white;
+    margin-top: -150px;
+    margin-left: 350px;
+    font-size: 15px;
+
+    a{
+        display: flex;
+        color: gray;
+        margin-top: 20px;
+        font-size: 10px;
+
+    }
+   }
+
+   .div-5{
+    color: white;
+    margin-top: -150px;
+    margin-left: 600px;
+    font-size: 15px;
+
+    a{
+        display: flex;
+       color: gray;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+   }
+
+   .div-6{
+    color: white;
+    margin-top: -400px;
+    margin-left: 850px;
+    font-size: 15px;
+
+    a{
+        display: flex;
+        color: gray;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+   }
+
+   .div-7{
+    color: white;
+    margin-top: -80px;
+    margin-left: 1100px;
+    font-size: 15px;
+
+    a{
+        display: flex;
+        color: gray;
+        margin-top: 20px;
+        font-size: 10px; 
+    }
+   }
+
+   .div-8{
+    color: white;
+    margin-top: -210px;
+    margin-left: 1300px;
+    font-size: 15px;
+
+    a{
+        display: flex;
+        color: gray;
+        margin-top: 20px;
+        font-size: 10px; 
+    }
+   }
+
+   .div-9{
+    width: 80%;
+    height: 100px;
+    background-color: #211F20;
+    border-bottom: 1px solid gray;
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+
+  .div-10{
+    color: white;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-size: 15px;
+
+    a{
+        display: flex;
+        color: gray;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+  }
+
+  .div-11{
+    color: white;
+    margin-top: -180px;
+    margin-left: 450px;
+    font-size: 15px;
+
+    a{
+        display: flex;
+        color: gray;
+        margin-top: 20px;
+        font-size: 10px;
+    }  
+  }
+
+  .div-12{
+    color: white;
+    margin-top: -115px;
+    margin-left: 650px;
+    font-size: 15px;
+
+    a{
+        display: flex;
+        color: gray;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+  }
+
+  .div-13{
+    width: 80%;
+    height: 100px;
+    background-color: #211F20;
+    border-bottom: 1px solid gray;
+    margin-left: 150px;
+    margin-top: 80px;
+  }
+
+  .div-14{
+    color: gray;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-size: 10px;
+  }
+
+  .div-15{
+    color: gray;
+    margin-left: 500px;
+    margin-top: -115px;
+    font-size: 15px;
+
+    a{
+        color: gray;
+    }
+  }
+
+  .div-16{
+    color: white;
+    margin-left: 1000px;
+    margin-top: -20px;
+    font-size: 12px;
+  }
+
+  .visa-and-mastercard{
+    font-size: 40px;
+    margin-top: 10px;
+    color: gray;
+  }
+}
